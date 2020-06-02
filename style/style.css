@@ -1,0 +1,167 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    background-color: white;
+}
+
+nav, .logo, #reqInvite{
+    display: inline-block;
+}
+
+#reqInvite{
+    float:right;
+    background: rgb(49,211,92);
+    background: linear-gradient(90deg, rgba(49,211,92,1) 0%, rgba(43,183,218,1) 100%);
+    width: 160px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    
+}
+#reqInvite a{
+    color: white;
+    text-decoration: none;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    vertical-align: bottom;
+    font-weight: 500;
+
+}
+
+#reqInvite a:visited{
+    color:white;
+    text-decoration: none;
+    
+}
+
+.logo{
+    float:left;
+    height: 45px;
+}
+.nav{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 45px;
+    
+}
+.nav a:visited{
+    color: #9698a6;
+    text-decoration: none;
+}
+.nav a {
+    color: #9698a6;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-top: auto;
+    font-size: 15px;
+}
+
+header{
+    width: 100%;
+    height: 5%;
+    margin: 0 auto 0 auto;
+    vertical-align: middle;
+    position: absolute;
+    z-index: 8;
+    background-color: white;
+}
+
+.main{
+    background-color: #fafafa;
+    background-image: url('../images/bg-intro-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 1350px;
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position-x: 650px;
+    background-position-y: -160px;
+    
+    
+}
+.leftMain{
+    float: left;
+    width: 400px;
+    margin-top: 220px;
+    margin-left: 160px;
+}
+
+.rightMain{
+    float: right;
+}
+
+.leftMain > *{
+   display: block;
+}
+.leftMain #reqInvite{
+    float: left;
+    margin-top: 18px;
+}
+
+.leftMain h2{
+    font-size: 50px;
+    color: #2d314d;
+    font-weight: 400;
+}
+.leftMain p{
+    color: #9698a6;
+    font-weight: 300;
+}
+
+.headerBox{
+    width: 80%;
+    margin: 15px auto 0 auto;
+}
+
+.logo svg {
+    margin-top: 10px;
+}
+.why {
+    background-color: #f3f4f6;
+    margin-top: 0px;
+    z-index: -8;
+}
+
+.why h2{
+    padding-top: 120px;
+    font-size: 40px;
+    color: #2d314d;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 28px;
+}
+
+.why p{
+    color: #9698a6;
+    font-weight: 300;
+    
+}
+.content{
+    margin-left: 160px;
+}
+.rightMain img{
+    z-index: 8;
+}
+.parts{
+    width: 18%;
+    overflow: hidden;
+    display: inline-block;
+    padding-right: 50px;
+}
+
+.lastP{
+    margin-bottom: 60px;
+    margin-top: 8px;
+}
+.firstP{
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+
+.parts h4{
+    color: #2d314d;
+    font-weight: 400;
+    font-size: 22px;
+}
